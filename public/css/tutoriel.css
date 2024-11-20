@@ -1,0 +1,114 @@
+.custom-btn {
+    position: absolute;
+    top: 48%; 
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #147cecb2;
+    color: #fff;
+    border-radius:80% 80% 80% 80%;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+}
+
+  
+.item-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-box img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    margin-top: 40px; 
+    margin-bottom:40px ;
+    line-height: 3;
+}
+.description-2{
+    margin-top: 60px; 
+    margin-bottom:40px ;
+}
+
+.arrow {
+    text-decoration: none;
+    display: inline;
+    color: #333;
+    font-size: x-large;
+    margin-left: 8pc;
+}
+
+.date {
+    color: #666;
+    font-size: 12px;
+}
+
+.strong {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.extra-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.extra-info .date ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.extra-info .date li {
+    font-size: 15px;
+    color: #666;
+    position: relative;
+}
+
+.extra-info .date li:not(:last-child)::after {
+    content: "•";
+    color: #107fe0;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.btn-2 {
+    margin-top: 10px;
+    position: absolute; 
+    top: 15px; 
+    left: 20px; 
+    background-color: #147cecb2;
+    color: #fff;
+    border-radius: 30%; 
+    padding: 3px 25px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.box-2 {  
+    position: relative; 
+    padding: 20px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 30px; 
+    margin-bottom: 15px; 
+    margin-left: -33px;
+}
+
+
+
+.container-fluid {
+    padding: 0;
+    margin: 0; 
+    width: 100%; 
+}

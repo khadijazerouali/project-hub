@@ -1,0 +1,10 @@
+/*  التصغير */
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block; 
+    }
+}

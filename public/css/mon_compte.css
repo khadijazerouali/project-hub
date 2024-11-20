@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e1dbd7, #e0e8ea,#e4e6e7);
+}
+
+.Mh1{
+    font-weight: 900;
+    padding: 30px;   
+}
+
+.label{
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.form-container-c {
+    width: 100%;
+    max-width: 559px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    background-color: white;
+ 
+}
+
+.input-field {
+    width: 90%; 
+    padding: 15px;
+    border: 0; 
+    border-radius: 25px;
+    background-color: #ddeaed;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s; 
+    margin-left: 20px;
+}
+
+.input-field:focus {
+    background-color: #cceef1;
+    outline: none; 
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-password {
+    position: absolute;
+    left: 41%; 
+    transform: translate(-50%, -50%); 
+    cursor: pointer;
+    font-size: 15px; 
+    margin-top: 23px;
+    pointer-events: auto; 
+    color: rgb(76, 75, 75);
+}
+
+.button-container-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-button {
+    padding: 10px 10px;
+    background-color: #006adb;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 90px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+.save-button {
+    font-size: 18px; 
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.forgot-password {  
+    color: #006adb;
+    cursor: pointer;
+   
+    text-align: left; 
+   
+    margin: 30px;
+}
+
+.save-button input[type="radio"]:checked {
+    background-color: #007BFF;
+}
+
+.save-button input[type="radio"] {
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #454545;
+    border-radius: 0;
+    cursor: pointer;
+    position: relative;
+}
+ /* footer */
+.container-fluid {
+    padding: 0;
+    margin: 0; 
+    width: 100%; 
+}
+
+
+.save-button input[type="radio"]:checked::before {
+    content: "✓";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+#politique{
+    text-decoration: none;
+    color: #006adb;
+}
+.paragraphe{
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.5;
+    color: #454545;
+    margin-left: 20px;
+}
